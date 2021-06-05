@@ -1,0 +1,26 @@
+.card__image {
+  background-blend-mode: multiply;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .card__image {
+    background: url("../../images/image-header-mobile.jpg") center/cover
+      no-repeat var(--soft-violet);
+
+    min-width: 330px;
+    min-height: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card__image {
+    background: url("../../images/image-header-desktop.jpg") center/cover
+      no-repeat var(--soft-violet);
+
+    grid-column: 2/2;
+    grid-row: 1/1;
+    border-radius: 0 10px 10px 0;
+  }
+}

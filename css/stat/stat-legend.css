@@ -1,0 +1,6 @@
+.stat__legend {
+  font-family: "Lexend Deca", "Inter", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--neutral-slightly-transparent-white-stat);
+}

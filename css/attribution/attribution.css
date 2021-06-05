@@ -1,0 +1,17 @@
+.attribution,
+.attribution a {
+  font-family: "Lexend Deca", "Inter", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.attribution {
+  text-align: center;
+  color: var(--neutral-slightly-transparent-white-main);
+  padding: 1rem;
+}
+
+.attribution a {
+  color: var(--soft-violet);
+}

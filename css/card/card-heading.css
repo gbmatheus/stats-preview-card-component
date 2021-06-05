@@ -1,0 +1,11 @@
+.card__heading,
+.card__heading-accent {
+  font-size: 2rem;
+}
+.card__heading {
+  color: var(--neutral-white);
+}
+
+.card__heading-accent {
+  color: var(--soft-violet);
+}

@@ -1,0 +1,5 @@
+.card__paragraph {
+  font-size: 1rem;
+  color: var(--neutral-slightly-transparent-white-main);
+  padding: 1rem;
+}
