@@ -1,0 +1,23 @@
+.card {
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 0) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: calc(540px * 2);
+    height: 446px;
+  }
+}
