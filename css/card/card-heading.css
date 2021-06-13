@@ -1,11 +1,32 @@
-.card__heading,
-.card__heading-accent {
-  font-size: 2rem;
-}
 .card__heading {
   color: var(--neutral-white);
 }
 
+.card__heading {
+  margin-top: auto;
+}
+
 .card__heading-accent {
   color: var(--soft-violet);
+}
+
+@media screen and (min-width: 0) {
+  .card__heading,
+  .card__heading-accent {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card__heading,
+  .card__heading-accent {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card__heading,
+  .card__heading-accent {
+    font-size: 2.4rem;
+  }
 }
