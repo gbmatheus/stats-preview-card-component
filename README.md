@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/gbmatheus/stats-preview-card-component)
+- [Live Site URL](https://stats-preview-card-componen-gbmatheus.netlify.app/)
 
 ## My process
 
