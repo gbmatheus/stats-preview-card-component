@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Stats Preview Card Component Solution](./images/stats_preview_card_component_solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://your-live-site-url.com)
 
 ## My process
 
@@ -45,44 +45,34 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first
+- [BEM](https://en.bem.info/methodology/)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In addition to delving into the BEM methodology, I also learned how to apply an image with some overlapping colors.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+.card__image {
+    background: url("../../images/image-header-desktop.jpg") center/cover
+      no-repeat var(--soft-violet);
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+    grid-column: 2/2;
+    grid-row: 1/1;
+    border-radius: 0 10px 10px 0;
+  }
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Maybe by CSS.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Documentation BEM](https://en.bem.info/methodology/) - This helped me a little with the functioning of the BEM methodology.
+- [A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/) - This is an article that can be useful to get a better understanding of the display grid and how to use it.
+- [CSS Basics: Using Multiple Backgrounds ](https://css-tricks.com/css-basics-using-multiple-backgrounds/) - This is an article that helped me understand and apply multiple backgrounds. I would recommend it to anyone who is still learning this concept.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [gbmatheus](https://github.com/gbmatheus)
+- Frontend Mentor - [@gbmatheus](https://www.frontendmentor.io/profile/gbmatheus)
